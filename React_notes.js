@@ -4,6 +4,11 @@
 
 // useState
 
+//useState problem
+
+//two state depend on eachother and updating sametime
+
+
 //add new property into object of useState
 
  const [state, setState] = useState({
