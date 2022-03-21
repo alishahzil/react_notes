@@ -11,7 +11,12 @@
     age: '',
  })
 
- setState(...currentdata,{})
+  setstate((state) => ({
+        ...state,
+        Quantity: quantity,
+        Disc1: disc,
+        selected: false,
+     }));
 
 
 //useEffect
